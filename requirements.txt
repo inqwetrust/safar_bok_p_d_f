@@ -1,0 +1,4 @@
+selenium
+PyPDF2
+psutil
+pyinstaller
