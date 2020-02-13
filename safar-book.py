@@ -24,7 +24,7 @@ def main(land_url, result):
 
     elem = driver.find_element_by_xpath('/html/body/div[1]/div/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[1]/div/form/div[1]/input')
     elem.send_keys(login)
-    elem = driver.find_element_by_xpath('/html/body/div[1]/div/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[1]/div/form/div[2]/input')
+    elem = driver.find_element_by_xpath('/html/body/div[1]/div/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[1]/div/form/div[3]/input')
     elem.send_keys(pwd)
     elem.send_keys(Keys.RETURN)
     try:
@@ -40,7 +40,7 @@ def main(land_url, result):
     driver2.get("https://learning.oreilly.com/home/")
     elem = driver2.find_element_by_xpath('/html/body/div[1]/div/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[1]/div/form/div[1]/input')
     elem.send_keys(str(login))
-    elem = driver2.find_element_by_xpath('/html/body/div[1]/div/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[1]/div/form/div[2]/input')
+    elem = driver2.find_element_by_xpath('/html/body/div[1]/div/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[1]/div/form/div[3]/input')
     elem.send_keys(str(pwd))
     elem.send_keys(Keys.RETURN)
     time.sleep(5)
